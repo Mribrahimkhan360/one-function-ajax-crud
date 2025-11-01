@@ -120,7 +120,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label>Address</label>
+                            <label>Store Code</label>
                             <input type="text" class="form-control" id="edit_store_code" name="store_code">
                         </div>
 
@@ -165,31 +165,31 @@
 
                         <div class="mb-3">
                             <label>Name</label>
-                            <input type="text" class="form-control" id="add_name" name="name" required>
+                            <input type="text" class="form-control" id="add_name" name="name" placeholder="Enter Your Name" required>
                         </div>
 
                         <div class="mb-3">
                             <label>Phone</label>
-                            <input type="text" class="form-control" id="add_phone" name="phone" required>
+                            <input type="text" class="form-control" id="add_phone" name="phone" required placeholder="Enter Your Number">
                         </div>
 
                         <div class="mb-3">
                             <label>Email</label>
-                            <input type="email" class="form-control" id="add_email" name="email">
+                            <input type="email" class="form-control" id="add_email" name="email" placeholder="Enter Your Email">
                         </div>
 
                         <div class="mb-3">
                             <label>Address</label>
-                            <input type="text" class="form-control" id="add_address" name="address">
+                            <input type="text" class="form-control" id="add_address" name="address" placeholder="Enter Your Address">
                         </div>
                         <div class="mb-3">
                             <label>Store Code</label>
-                            <input type="text" class="form-control" id="add_store_code" name="store_code">
+                            <input type="text" class="form-control" id="add_store_code" name="store_code" placeholder="Enter Your Store Code">
                         </div>
 
                         <div class="mb-3">
                             <label>Range</label>
-                            <input type="text" class="form-control" id="add_range" name="range">
+                            <input type="text" class="form-control" id="add_range" name="range" placeholder="Range">
                         </div>
                         <div class="mb-3">
                             <label>Store Name</label>

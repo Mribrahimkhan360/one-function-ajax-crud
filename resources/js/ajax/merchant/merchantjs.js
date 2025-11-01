@@ -73,7 +73,7 @@ $(document).ready(function () {
                                 <td>${m.status}</td>
                                 <td>${m.login_count}</td>
                                 <td>
-                                    <button class="btn btn-sm btn-danger m-edit-btn" data-id="${m.id}" data-route="/merchant/edit/${m.id}"> Edit </button>
+                                    <button class="btn btn-sm btn-soft-primary m-edit-btn" data-id="${m.id}" data-route="/merchant/edit/${m.id}"> Edit </button>
                                     <button class="btn btn-sm btn-danger m-delete-btn" data-id="${m.id}" data-route="/merchant/delete/${m.id}"> Delete </button>
                                 </td>
                             </tr>
@@ -172,8 +172,6 @@ $(document).ready(function () {
         });
     }
     modelEdit();
-
-
 
 
     // ====================================================
