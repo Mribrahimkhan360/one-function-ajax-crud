@@ -1,0 +1,44 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : Ibrahim Khan
+* Template Name : BINARYBOX - Laravel Ajax Admin Template
+* File          : CSS File
+* Version       : 1.0
+* ---------------------------------------------------------------------------------------- */
+/* INDEX
+----------------------------------------------------------------------------------------
+01. Global Variables
+02. Merchant Page
+
+-------------------------------------------------------------------------------------- */
+
+/************************************/
+/*** 	 01. Global Variables	  ***/
+/************************************/
+
+:root {
+    --primary-color-deep: #462F93;
+    --font-px-xs: 10px;
+    --font-px-sm: 12px;
+    --font-px-md: 14px;
+    --font-px-xl: 16px;
+    --font-px-2xl: 18px;
+    --font-px-3xl: 20px;
+    --font-px-4xl: 22px;
+}
+
+/************************************/
+/*** 	 02. Merchant Page	  ***/
+/************************************/
+
+.text-primary-deep{
+    color: var(--primary-color-deep);
+}
+.font-md{
+    font-size: var(--font-px-md);
+}
+.font-xl{
+    font-size: var(--font-px-xl);
+}
+.font-2xl{
+    font-size: var(--font-px-2xl);
+}

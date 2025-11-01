@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class MerchantTwo extends Model
+{
+    //
+    protected $fillable = ['name','phone','email','address','store_name','store_code','range','status','login_count'];
+}
